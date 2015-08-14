@@ -15,6 +15,6 @@ app.listen(3012, function () {
   console.log('Http server listening on port ' + 3012);
 });
 
-https.createServer(options, app).listen(3011, function (req, res) {
+https.createServer(options, app).listen(443, function (req, res) {
   console.log('Https server listening on port ' + 3011);
 });
